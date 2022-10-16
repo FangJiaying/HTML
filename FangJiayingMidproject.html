@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="https://cdn.staticfile.org/ionicons/2.0.1/css/ionicons.min.css">
+    
+    <style>
+        #box {
+            width: 100%;
+            height: 20px;
+            background-color: rgb(227, 228, 229);
+            font-size: 15px;
+            text-align: center;
+        }
+ 
+        .box1 {
+            width: 80px;
+            height: 20px;
+            background-color: rgb(227, 228, 229);
+            float: right;
+        }
+ 
+        .box2 {
+            width: 100px;
+            height: 20px;
+            background-color: rgb(227, 228, 229);
+            float: left;
+            display: block;
+            margin: 0px 10px;
+            font-size: 10px;
+            position: relative;
+        }
+ 
+        .icon {
+            color: crimson;
+        }
+ 
+      
+        a {
+            position: relative;
+            display: block;
+            height: 20px;
+            line-height: 20px;
+            font-size: 11px;
+            color: #333;
+            text-decoration: none;
+            float: left;
+        }
+ 
+        a:hover {
+            color: red;
+        }
+ 
+        .ww {
+            font-family: "xiyangyang";
+            color: red;
+ 
+        }
+ 
+        @font-face {
+            /* 字体起的名字 */
+            font-family: "xiyangyang";
+            /* 引入字体的路径 */
+            src: url(./字体/ZCOOLKuaiLe-Regular.ttf);
+        }
+ 
+        .ww:hover {
+            color: crimson;
+        }
+ 
+        .box1::before {
+            position: sticky;
+            display: inline-block;
+            width: 1px;
+            height: 10px;
+            left: 10px;
+            margin-left: auto;
+            background-color: rgb(155, 153, 153);
+            content: "";
+        }
+        .p{
+        width: 80px;
+        height: 50px;
+        border: 1px solid rgb(227, 228, 229);
+        line-height: 50px;
+        text-align: center;
+        display: none;
+        background-color: #e3e4e5;
+        margin-left:-25px ;
+    }
+ 
+    div>.box1:hover .p{
+        display: block;
+    }
+   
+	
+		table {
+			border: 1px solid;
+			/* margin: auto;*/
+			width: 1350px;
+		}
+
+		td,
+		th {
+			text-align: center;
+			border: 1px solid;
+		}
+		.table{
+			position: absolute;
+			/*left: 15%;*/
+		}
+
+
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <p class="box2">
+            <i class="icon ion-location"></i>
+            <span href="#" class="">HongKong</span>
+        </p>
+        <div class="box1">
+            <a href="#" >Welcome</a>
+            
+        </div>
+        <div class="box1">
+            <a href="#">FangJiaying</a>
+        </div>
+        <div class="box1">
+            <a href="#">HomePage<i class="icon1 ion-chevron-down"></i></a>
+            <div class="p"><a href="#">About me</a>
+                <a href="#" class="b">My photo</a>
+            </div>
+        </div>
+
+    </div>
+   
+
+    <h1>Hello Friend!</h1>
+    <h2>About Me</h2>
+    <p><i class="icon ion-person"></i>
+        <span href="#" class="">My name is FangJiaying, you can call me Sakura, it's my English name, oh maybe it likes a Japanese name.<br />
+        <i class="icon ion-location"></i>
+            <span href="#" class="">I come from Hong Kong Polytechnic University, a MSc student of the DEPARTMENT OF COMPUTING.<br />
+    </p>
+    <p>
+        <h3>Education</h3> 
+        <i class="icon ion-location"></i>
+            <span href="#" class="">2015-2019 Graduated from Chang 'an University, majored in Internet of Things engineering(IoT)<br />
+        <i class="icon ion-location"></i>
+            <span href="#" class=""> 2022-Now  Studing at the Hong Kong Polytechnic University, majored in INFORMATION TECHNOLOGY<br />
+    </p>
+    <p>
+        <h3>Work Experience</h3>
+        <i class="icon ion-location"></i>
+            <span href="#" class="">Technical Support Engineer of New Huasan Technology Co., LTD<br />
+        <i class="icon ion-location"></i>
+            <span href="#" class="">Service Product Manager, International Service Support Department, New H3C Technology Co., LTD<br />
+                
+    </p>
+    <p><h3>Speech Experience</h3>
+        <i class="icon ion-person"></i>
+        <span href="#" class="">Chang 'an University excellent students propaganda group<br />
+            <i class="icon ion-person"></i>
+        <span href="#" class="">Chang 'an University graduation ceremony undergraduate representatives<br />
+    </p>
+    <p><h3>Project Experience</h3>
+        <i class="icon ion-person"></i>
+        <span href="#" class="">Attendance system App based on face recognition<br />
+        <i class="icon ion-person"></i>
+        <span href="#" class="">Simulation model of "single two-child" policy effect<br />  
+        <i class="icon ion-person"></i>
+        <span href="#" class="">Hospital patient alarm system<br />
+    </p>
+    <p><h3>Practice</h3>
+        <i class="icon ion-person"></i>
+        <span href="#" class="">Secretary of the Student Union Secretariat<br />
+        <i class="icon ion-person"></i>
+        <span href="#" class="">Monitor of Class 2 of Internet of Things<br />
+    </p>
+    <p><h3>Hobby</h3>
+        <i class="icon ion-person"></i>
+        <span href="#" class="">skating and skiing<br />
+    </p>
+    
+    <p><h3>Assessment Myself</h3>
+        <i class="icon ion-person"></i>
+        <span href="#" class="">With excellent willpower, once lost 35 Kg healthy weight<br />
+    </p>
+    <h3>My Photo</h3>
+    <img src="../HTML/FangJiayingPhotos.jpg" width="500" />
+
+    <h3>Awards</h3>
+
+    <div class="table">
+        
+        <table class="table4">
+        
+            <tr style="background-color: cornflowerblue;;">
+                <th>Time</th>
+                <th>Name the awards</th>
+                <th>issuing organizations</th>
+            </tr>
+
+            <tr>
+                <td>2017-2018</td>
+                <td>National Scholarship</td>
+                <td>Ministry of Education of the People’s Republic of China</td>
+        
+            </tr>
+            <tr>
+                <td>2017-2018</td>
+                <td>Scholarship for Outstanding Students of Chang 'an University</td>
+                <td>Chang 'an University</td>
+                
+            </tr>
+            <tr>
+                <td>2017-2018</td>
+                <td>First prize in National Computer Simulation Competition</td>
+                <td>China Computer Association(CCF)</td>
+            
+            </tr>
+    </div>
+
+
+    </table>
+
+    
+</body>
+</html>
